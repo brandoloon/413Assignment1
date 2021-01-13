@@ -5,10 +5,10 @@
 label {
     font-size: 20px;
     color: blueviolet;
-    width: 100px;
-    display: inline-block;
+    width: 200px;
+    display: inline-flex;
 }
 
-ul.quiz-props li {
-    list-style-type: none;
+ol.careers li {
+    list-style-type: upper-roman;
 }

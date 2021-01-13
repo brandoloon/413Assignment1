@@ -2,35 +2,36 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Prof Ganderson Fan Site</title>
+    <title>Brandon Jacobsen - Stuff</title>
+    <link rel="icon" href="img/iconfinder_letter_B_blue_1553100.png" type="image/icon type" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Prof. Ganderson Fan Site</h1>
-    <img src="img/gregandersonaward.jpg" />
-    <p>Prof. Greg Anderson (a.k.a. "Ganderson") is a Professor in the Information Systems Department at BYU</p>
+    <h1>Brandon Jacobsen</h1>
+    <img src="img/enjoyment.jpg" />
+    <p>I am interested to learn new ways of creating a webpage. I am wanting to create my own personal site as a resume/portfolio site so this will hopefully give me more ways to do that.</p>
     <br />
-    <p>Pop Quiz: We love him because...?</p>
-    <ul class="quiz-props">
-        <li>A:  The lucsious locks he had when he was growing up.</li>
-        <li>B:  He can pound a pound of bacon like it ain't no thang.</li>
-        <li>C:  The million dollar smile</li>
-        <li>D:  He looks out and cares for everyone</li>
-        <li>E:  All of the above.</li>
-    </ul>
+    <p>Careers I would like to puruse</p>
+    <ol class="careers">
+        <li>Security Engineer</li>
+        <li>Software Developer</li>
+        <li>Product Management</li>
+    </ol>
 
-    <h2>Fan Mail</h2>
-    <script src="js/mail.js"></script>
+    <h2>Grade Calculator</h2>
     <form>
-        <label>From:</label>
-        <input id="from" /><br />
-        <label>Email:</label>
-        <input id="email" /><br />
-        <label>Subject:</label>
-        <input id="subject" /><br />
-        <label>Message:</label>
-        <textarea id="message" rows="5"></textarea><br />
-        <input type="submit" value="Send Message" id="mail-submit" />
+        <label>Assignments:</label>
+        <input id="assignments" value="0" /><br />
+        <label>Group Project:</label>
+        <input id="project" value="0" /><br />
+        <label>Quizzes:</label>
+        <input id="quizzes" value="0" /><br />
+        <label>Exams:</label>
+        <input id="exams" value="0" /><br />
+        <label>INTEX:</label>
+        <input id="intex" value="0" /><br />
+        <input type="submit" value="Calculate Grade" id="calcgrade" />
     </form>
+    <script src="js/grade.js"></script>
 </body>
 </html>
