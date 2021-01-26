@@ -1,12 +1,11 @@
-﻿var submit = document.getElementById("calcgrade");
-
-submit.addEventListener("click", function () {
+﻿
+$("#calcgrade").click(  function () {
     // get all of the individual grades
-    var assignments = parseInt(document.getElementById("assignments").value);
-    var project = parseInt(document.getElementById("project").value);
-    var quizzes = parseInt(document.getElementById("quizzes").value);
-    var exams = parseInt(document.getElementById("exams").value);
-    var intex = parseInt(document.getElementById("intex").value);
+    var assignments = parseInt($("#assignments").val());
+    var project = parseInt($("#project").val());
+    var quizzes = parseInt($("#quizzes").val());
+    var exams = parseInt($("#exams").val());
+    var intex = parseInt($("#intex").val());
     // calc final grade
     var final_grade = .5 * assignments + .1 * project + .1 * quizzes + .2 * exams + .1 * intex;
     // display final grade
